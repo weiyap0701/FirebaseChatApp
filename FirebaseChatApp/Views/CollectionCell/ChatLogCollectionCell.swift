@@ -94,7 +94,7 @@ class ChatLogCollectionCell: BaseCollectionCell {
                 bubbleViewLeftConstraint?.isActive = isReceiver
                 
                 if isReceiver { //Receiving message
-                    bubbleView.backgroundColor = UIColor.rgb(red: 0, green: 137, blue: 249)
+                    bubbleView.backgroundColor = UIColor.rgb(red: 246, green: 114, blue: 128)
                     messageTextView.textColor = .white
                     
                 }
